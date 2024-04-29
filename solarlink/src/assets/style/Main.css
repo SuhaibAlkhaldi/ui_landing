@@ -1,0 +1,478 @@
+.section{
+    height: 100vh;
+}
+.header-section{
+    display:flex;
+    width: 100%;
+    justify-content: space-between;
+    position:fixed;
+    top:0;
+    height: 120px;
+    background: white; 
+    
+    left: 0;
+box-shadow: 10px 0.5px 1px 0px;
+align-items: center;
+z-index: 999;
+
+
+
+}
+.logo-section{
+    display:flex;
+    padding: 5px 10px;
+    align-items: center;
+}
+.menu-section{
+    display:flex ;
+    padding: 5px 10px;
+
+}
+.item{
+    margin: 0 0.5rem;
+    padding: 5px;
+}
+.clear{
+    margin-top: 120px;
+}
+.image-logo{
+    width: 150px;
+    height: 100px;
+}
+.home-background{
+   background-size: cover;
+    background-image: url('../images/home.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.clickable{
+    cursor: pointer;
+    
+}
+ .clickable:hover{
+    font-weight: bolder;
+}
+.findsystem-section{
+    width: 30vw;
+    height: 35vw;
+    opacity: 0.7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#000;
+    justify-content: space-between;
+    border-radius: 8px;
+    color: white;
+    
+}
+.findsystem-input{
+    width: 80%;
+padding: 5px;
+}
+.w-100{
+    width: 100%;
+    
+}
+.input-container{
+    text-align: center;
+}
+.find-button{
+    background-color:blue;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    font-weight: bolder;
+};
+.container-why {
+    padding-top: 1.5rem;
+    margin-top: 5rem;
+  }
+  
+  .card-title-why {
+    background-color: #6f42c1;
+    color: #f9fbfc;
+    padding: 0.5rem 1rem;
+  }
+  
+  .card-body-why {
+    padding: 1rem;
+  }
+  
+  .card-text-why {
+    margin-bottom: 0.5rem;
+  }
+  
+  .why-subcard {
+    margin-bottom: 1rem;
+  }
+  
+  .why-subcard .card-body {
+    padding: 1rem;
+  }
+  
+  .why-subcard .card-title {
+    text-align: center;
+  }
+/* main.css */
+
+.frame {
+    border: 1px solid #ddd; /* Adjust border color and thickness as needed */
+    padding: 20px; /* Adjust padding as needed */
+    border-radius: 5px; /* Adjust border radius for rounded corners */
+  }
+  /* main.css */
+
+.row-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .Findsystem {
+    order: 1; /* تحديد الترتيب لـ FindSystem */
+  }
+  
+  .whysolar {
+    order: 2; /* تحديد الترتيب لـ Whysolar */
+  }
+  /* Whysolar.css */
+
+.why-solar-container {
+    padding: 40px 0;
+  }
+  
+  .why-solar-heading {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #333; /* Heading color */
+  }
+  
+  .why-solar-card {
+    border: 1px solid #ccc; /* Card border color */
+    border-radius: 8px;
+    margin-bottom: 20px;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .why-solar-card:hover {
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.1); /* Card hover effect */
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .card-title {
+    font-size: 20px;
+    color: #333; /* Card title color */
+  }
+  
+  .card-text {
+    color: #666; /* Card text color */
+
+  }
+  .bs-icon.bs-icon-rounded {
+    border-radius: .5rem;
+}
+.bs-icon.bs-icon-primary {
+    color: var(--bs-white);
+    background: var(--bs-primary);
+}
+.bs-icon-md {
+  --bs-icon-size: 1.5rem;
+}
+.bs-icon {
+  --bs-icon-size: .75rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: var(--bs-icon-size);
+  width: calc(var(--bs-icon-size)* 2);
+  height: calc(var(--bs-icon-size)* 2);
+}
+.bs-icon-md {
+  --bs-icon-size: 1.5rem;
+}
+.bg-secondary {
+  background-color: #eee !important;
+}
+.text-light{
+  color: #eee !important;
+}
+#how #howCards >div:hover .bs-icon {
+  background-color: var(--bs-orange);
+  opacity: 0.5;
+  -webkit-transform: translateX(-60%);
+  -ms-transform: translateX(-60%);
+  transform: translateX(-60%);
+}
+#how #howCards div {
+  -webkit-transition: all 300ms ease-in;
+  -o-transition: all 300ms ease-in;
+  transition: all 300ms ease-in;
+}
+.bs-icon.bs-icon-circle {
+  border-radius: 50%;
+}
+.bs-icon.bs-icon-primary {
+  color: var(--bs-white);
+  background: var(--bs-primary);
+}
+.bi {
+  text-decoration: none;
+}
+.bs-icon-lg {
+  --bs-icon-size: 2rem !important;
+}
+.bs-icon {
+  
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: var(--bs-icon-size);
+  width: calc(var(--bs-icon-size)* 2);
+  height: calc(var(--bs-icon-size)* 2);
+  color: var(--bs-primary);
+}
+#how #howCards >div:hover {
+  background: var(--bs-secondary);
+  color: var(--bs-dark);
+}
+#how #howCards >div:hover {
+  background: var(--bs-secondary);
+  color: var(--bs-dark);
+}
+#how #howCards div {
+  -webkit-transition: all 300ms ease-in;
+  -o-transition: all 300ms ease-in;
+  transition: all 300ms ease-in;
+}
+#how .link-read {
+  text-decoration: none;
+}
+a:hover {
+  color: #007095;
+}
+.photos .item {
+  overflow: hidden;
+  position: relative;
+  padding: 0;
+  border: 2px solid white;
+  margin: unset !important;
+}
+.photos .item a img {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: -webkit-transform 300ms ease-in;
+  transition: -webkit-transform 300ms ease-in;
+  -o-transition: transform 300ms ease-in;
+  transition: transform 300ms ease-in;
+  transition: transform 300ms ease-in, -webkit-transform 300ms ease-in;
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+.photos .item a img {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: -webkit-transform 300ms ease-in;
+  transition: -webkit-transform 300ms ease-in;
+  -o-transition: transform 300ms ease-in;
+  transition: transform 300ms ease-in;
+  transition: transform 300ms ease-in, -webkit-transform 300ms ease-in;
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+.photos .item .over {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: 50%;
+  color: white;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  width: 100%;
+  opacity: 0;
+  -webkit-transition: opacity 500ms ease-in 300ms;
+  -o-transition: opacity 500ms ease-in 300ms;
+  transition: opacity 500ms ease-in 300ms;
+  z-index: 200;
+}
+
+.photos .item a:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+  opacity: 0;
+  -webkit-transition: opacity 600ms ease-in;
+  -o-transition: opacity 600ms ease-in;
+  transition: opacity 600ms ease-in;
+}
+.photos .item a:hover img {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.photos .item a img {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: -webkit-transform 300ms ease-in;
+  transition: -webkit-transform 300ms ease-in;
+  -o-transition: transform 300ms ease-in;
+  transition: transform 300ms ease-in;
+  transition: transform 300ms ease-in, -webkit-transform 300ms ease-in;
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+.photos .item a:hover:after {
+  opacity: 0.3;
+}
+.photos .item a:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+  opacity: 0;
+  -webkit-transition: opacity 600ms ease-in;
+  -o-transition: opacity 600ms ease-in;
+  transition: opacity 600ms ease-in;
+}
+.photos .item:hover .over {
+  opacity: 1;
+}
+
+
+.contact-bg {
+  position           : relative;
+  /* background-image   : url(../images/contact-map-bg.png); */
+  background-repeat  : no-repeat;
+  background-position: 8% bottom;
+  left               : 0px;
+}
+
+.contact-bg .content-top h2 {
+  font-size    : var(--secondary-desktop-heading);
+  color        : var(--secondary-color);
+  font-weight  : 800;
+  margin-bottom: var(--margin-bottom-large);
+}
+
+.contact-bg .content-top h2 span::after {
+  right: 41%;
+}
+
+.contact-form .form-row .input-main .input-style {
+  padding      : 12px 24px;
+  height       : 56px;
+  border-radius: 28px;
+  margin-bottom: 32px;
+  color        : var(--secondary-color);
+}
+
+.contact-form .form-row .input-main .input-style-select {
+  padding         : 12px 16px;
+  height          : 56px;
+  border          : none;
+  border-radius   : 0px;
+  background-color: rgba(255, 255, 255, 0.1);
+  margin-bottom   : 32px;
+  color           : #777777;
+}
+
+.contact-form .form-row .input-main .input-style:focus {
+  box-shadow: 0 0 0 0.06rem var(--primary-color);
+  border    : 1px solid var(--white);
+}
+
+.contact-form .form-row .input-main .input-style-select:focus {
+  box-shadow: 0 0 0 0.06rem var(--primary-color);
+}
+
+.contact-form .form-row .input-main textarea {
+  height: auto !important;
+}
+
+.contact-form button i {
+  margin-left: 4px;
+}
+
+.contact-info {
+  padding      : 0px 16px;
+  border-radius: 8px;
+}
+
+.contact-info .contact-info-inner {
+  display      : flex;
+  align-items  : start;
+  margin-bottom: 48px;
+  padding      : 0px 14px;
+}
+
+.contact-info .contact-info-inner i {
+  font-size   : 32px;
+  color       : var(--primary-color);
+  margin-right: 16px;
+}
+
+.contact-info .contact-info-inner .info-inner h4 {
+  font-size    : var(--primary-body-font);
+  font-weight  : 600;
+  color        : var(--secondary-color);
+  margin-bottom: 8px;
+}
+
+.contact-info .contact-info-inner .info-inner p {
+  font-size    : var(--primary-body-font);
+  font-weight  : 400;
+  color        : var(--gray-text);
+  margin-bottom: 0px;
+}
+
+h2.popup-message {
+  color      : #0ac873;
+  font-weight: 700;
+}
+
+.modal-body p {
+  margin     : 8px 0px 0px 0px;
+  font-weight: 600;
+}
