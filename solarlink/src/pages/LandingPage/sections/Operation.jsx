@@ -1,7 +1,7 @@
 import mainimage from '../../../assets/images/operation.png'
 const Operation =()=>{
     console.log('laith')
-   return(<section className="container py-4 py-xl-5" id="how">
+   return(<section className="container py-4 py-xl-5" id="operation">
    <div className="row row-cols-1 row-cols-md-2">
        <div className="col d-flex flex-column justify-content-around align-items-center">
            <h2>How does it work?</h2><img className="rounded img-fluid d-xxl-flex aos-init aos-animate" data-aos="fade-right" src={mainimage} alt="how does it work"/>

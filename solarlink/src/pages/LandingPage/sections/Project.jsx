@@ -11,7 +11,7 @@ const Project =()=>{
     useEffect(()=>{
         baguetteBox.run('.photos');
     })
-   return(<section id="projects" className="photo-gallery py-4 py-xl-5 mt-5">
+   return(<section id="project" className="photo-gallery py-4 py-xl-5 mt-5">
    <div className="container">
        <div className="row mb-5">
            <div className="col-md-8 col-xl-6 text-center mx-auto">
@@ -22,8 +22,8 @@ const Project =()=>{
        <div className="row gx-2 gy-2 row-cols-1 row-cols-md-2 row-cols-xl-3 photos" data-bss-baguettebox="">
            <div className="col item">
              <a href={img1} data-aos="fade" data-aos-once="true" className="aos-init aos-animate"><img className="img-fluid" src={img1} alt="Project"/>
-             <div className="over"><span>Project number 1</span></div>  
-             </a>  
+             <div className="over"><span>Project number 1</span></div>
+             </a>
            </div>
            <div className="col item">
              <a href={img2} data-aos="fade" data-aos-once="true" data-aos-delay="250" className="aos-init aos-animate"><img className="img-fluid" src={img2} alt="Project"/>

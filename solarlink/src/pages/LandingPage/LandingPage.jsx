@@ -7,16 +7,15 @@ import Whysolar from "./sections/Whysolar";
 import WhySubCard from "./sections/Whysubcard";
 import Contact from "./sections/Contact";
 const LandingPage =()=>{
-     console.log('laith')
-    return(<div> 
-        
+    return(<div>
+
         <Home/>
         <Whysolar/>
         {/*<WhySubCard/>*/}
         <Operation/>
         <Project/>
         <Contact/>
-        
+
 
     </div>)
 }
