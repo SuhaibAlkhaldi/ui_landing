@@ -35,7 +35,7 @@ const Header =()=>{
                         setTimeout(()=>{scrollto('operation')},10)  ;
                     }}
                    className="item clickable">
-               operation
+               Operation
            </div>
            <div onClick=
                     {() => {
@@ -43,7 +43,7 @@ const Header =()=>{
                         setTimeout(()=>{scrollto('project')},10)  ;
                     }}
                      className="item clickable">
-               project
+               Project
            </div>
            <div onClick=
                     {() => {
@@ -56,6 +56,11 @@ const Header =()=>{
            <div onClick={() => navigate("/pricing") } className="item clickable">
               Pricing
            </div>
+
+       <div onClick={() => navigate("/Manager")  } className="item clickable">
+           Manager
+       </div>
+
 
        </div>
    </div>)
