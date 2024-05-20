@@ -11,7 +11,6 @@ const LandingPage =()=>{
 
         <Home/>
         <Whysolar/>
-        {/*<WhySubCard/>*/}
         <Operation/>
         <Project/>
         <Contact/>
