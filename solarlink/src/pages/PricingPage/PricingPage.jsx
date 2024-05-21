@@ -1,10 +1,12 @@
 import React, {useEffect, useState} from 'react';
 import {GetAllProducts} from "../../services/ProductService";
+import {useNavigate} from "react-router-dom";
 
 
 function PricingPage() {
     const [product , setProduct] = useState([]);
     const [groups , setGroups] = useState([]);
+    const navigate= useNavigate();
     const getAllProduct = async ()=>{
         let result = await GetAllProducts();
         ///console.lof()
@@ -32,7 +34,7 @@ function PricingPage() {
                <div className={"d-flex  justify-content-center flex-wrap"}>
                {product &&product.filter(f=>f.category.id === g.id).map(p=>
                    <div className={"d-flex flex-column m-3 align-items-center btn"}  onClick={()=>{
-                       
+                       navigate(`/PriceDetailsPage/${p.id}`);
                    }}>
                    <div><img src={p.imageUrl} width={240} height={240} /></div>
                    <div>{p.name}</div>
